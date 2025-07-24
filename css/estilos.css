@@ -55,11 +55,18 @@ header {
     box-shadow: 0 0 2rem -1rem rgba(0 , 0, 0, .5);
 }
 
+.logo {
+     max-width: 30rem;
+    width: 100%;
+}
+
 .logosuperior {
-    padding: .1rem;
+    
     display: flex;
     justify-content: center;
-    transform: scale(0.8);
+    transform: scale(1);
+    transform-origin: top;
+    padding: 2rem;
     
 }
 
